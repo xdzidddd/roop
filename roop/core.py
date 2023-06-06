@@ -177,7 +177,7 @@ def start(preview_callback = None):
         return
     if is_img(target_path):
         if predict_image(target_path) > 0.85:
-            quit()
+        
         process_img(args.source_img, target_path, args.output_file)
         status("swap successful!")
         return
