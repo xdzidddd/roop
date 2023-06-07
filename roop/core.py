@@ -15,7 +15,6 @@ import torch
 import tensorflow
 from pathlib import Path
 import multiprocessing as mp
-from opennsfw2 import predict_video_frames, predict_image
 import cv2
 
 import roop.globals
